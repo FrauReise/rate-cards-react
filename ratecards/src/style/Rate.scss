@@ -1,0 +1,73 @@
+$bodyBgr: rgb(248, 245, 245);
+$footerBgr: rgb(233, 229, 229);
+* {
+  box-sizing: border-box;
+}
+
+.rate {
+  margin: 0 2px;
+}
+
+.rate_chosen {
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.8);
+}
+
+.rate-header,
+.rate-price,
+.rate-speed,
+.rate-footer {
+  padding: 1em;
+}
+
+.rate-header,
+.rate-price {
+  color: #fff;
+}
+
+.rate-header {
+  font-size: 20px;
+}
+
+.rate-speed {
+  background-color: $bodyBgr;
+}
+
+.rate-footer {
+  background-color: $footerBgr;
+}
+
+.blueHeader {
+  background-color: rgb(20, 158, 204);
+}
+
+.blueBody {
+  background-color: rgb(55, 190, 235);
+}
+
+.greenHeader {
+  background-color: rgb(42, 122, 52);
+}
+
+.greenBody {
+  background-color: rgb(87, 151, 78);
+}
+
+.redHeader {
+  background-color: rgb(204, 20, 20);
+}
+
+.redBody {
+  background-color: rgb(235, 55, 55);
+}
+
+.blackHeader {
+  background-color: rgb(36, 37, 37);
+}
+
+.blackBody {
+  background-color: rgb(63, 64, 65);
+}
+
+.price {
+  font-size: 48px;
+}
