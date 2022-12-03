@@ -12,7 +12,7 @@ function App() {
     <div className="App">
       {
         rates.map((rate) =>
-          <Tarif tarif={tarif.tarif} speed={rate.speed} currency={rate.currency} period={rate.period} classHeader={rate.classHeader} classBody={rate.classBody} classTarif={rate.classTarif}></Tarif>
+          <Rate rate={rate.rate} speed={rate.speed} currency={rate.currency} period={rate.period} classHeader={rate.classHeader} classBody={rate.classBody} classRate={rate.classRate}></Rate>
           )
         }
     </div>
